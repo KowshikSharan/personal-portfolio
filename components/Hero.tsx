@@ -15,7 +15,11 @@ function Hero() {
         </div>
         <div className="flex mt-20">
           <div className="mr-10">
-            <a href="https://github.com/KowshikSharan" target="_blank">
+            <a
+              href="https://github.com/KowshikSharan"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Image
                 src={githubLogo}
                 className="opacity-80 hover:opacity-100"
@@ -25,6 +29,7 @@ function Hero() {
           <a
             href="https://www.linkedin.com/in/kowshik-sharan-subramanian/"
             target="_blank"
+            rel="noreferrer"
           >
             <Image
               src={linkedinLogo}
